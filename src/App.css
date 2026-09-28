@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background-color: #f5f6fa;
+  color: #333;
+  font-family: Arial, sans-serif;
+}
+.page_1 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 24px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.profileCard,
+.detailCard {
+  background-color: white;
+  border-radius: 16px;
+}
+
+.profileCard {
+  width: 380px;
+  max-width: 100%;
+  padding: 24px;
+}
+.profileCard__profileImage {
+  display: block;
+  width: 100%;
+  max-width: 80%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  margin: 0 auto 32px;
+}
+.profileCard__name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.profileCard__role {
+  font-size: 16px;
+  font-weight: bold;
+  color: #3535e2;
+  margin-bottom: 4px;
+}
+.profileCard__word {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 0px;
+}
+.detailCard {
+  width: 100%;
+  max-width: 100%;
+  padding: 32px;
+}
+.detailCard__name {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 7px;
+}
+.detailCard__role {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3535e2;
+  margin: 0;
+  margin-bottom: 5px;
+}
+.detailCard__word {
+  font-size: 19px;
+  color: #666;
+  margin: 0px;
+}
+.detailCard__brief {
+    width: 100%;
+    max-width: 100%;
+
+}
+
+.detailCard__introductionTitle {
+    width: 100%;
+    max-width: 100%;
+    margin-top: 14px;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}

@@ -1,4 +1,5 @@
 import profile_image from './assets/image.png'
+import './App.css'
 function App() {
   return (
     
@@ -7,15 +8,15 @@ function App() {
       <div className='profileCard'>
         <img className='profileCard__profileImage' src={profile_image} alt="인물사진" />
           <p className='profileCard__name'>채정훈</p>
-          <p className='profileCard__role'>frontend</p>
-          <p className='profileCard__role'>열심히배우는프론트엔드 개발자입니다</p>
+          <p className='profileCard__role'>Frontend</p>
+          <p className='profileCard__word'>열심히배우는 프론트엔드 개발자입니다</p>
       </div>
       {/* detail info */}
       <div className='detailCard'>
         <div className='detailCard__brief'>
           <p className='detailCard__name'>채정훈</p>
-          <p className='detailCard__role'>frontend</p>
-          <p className='detailCard__role'>열심히배우는프론트엔드 개발자입니다</p>
+          <p className='detailCard__role'>Frontend</p>
+          <p className='detailCard__word'>hungrydang</p>
         </div>
         {/* detailed introduction */}
         <div className='detailCard__introduction'>
