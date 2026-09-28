@@ -27,7 +27,7 @@ function App() {
         </div>
         {/*contact*/}
         <div className='detailCard__contact'>
-          <p className='detailCard__contactTitle'>연락처</p>
+          <h1 className='detailCard__contactTitle'>연락처</h1>
           <p className='detailCard__contactContent--email'>이메일: example@email.com</p>
           <p className='detailCard__contactContent--phone'>전화: 010-1234-5678</p>
         </div>
@@ -35,10 +35,10 @@ function App() {
         <div className='detailCard__interestedTechnologies'>
           <p className='detailCard__interestedTechnologiesTitle'>관심 기술</p>
           <ul className='detailCard__interestedTechnologiesList'>
-            <li className='detailCard__interestedTechnologiesItem1'>React</li>
-            <li className='detailCard__interestedTechnologiesItem2'>Vue</li>
-            <li className='detailCard__interestedTechnologiesItem3'>TypeScript</li>
-            <li className='detailCard__interestedTechnologiesItem4'>Node.js</li>
+            <li className='detailCard__interestedTechnologiesItem'>React</li>
+            <li className='detailCard__interestedTechnologiesItem'>Vue</li>
+            <li className='detailCard__interestedTechnologiesItem'>TypeScript</li>
+            <li className='detailCard__interestedTechnologiesItem'>Node.js</li>
           </ul>
         </div>
       </div>
