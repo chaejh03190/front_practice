@@ -89,3 +89,42 @@ body {
     font-weight: bold;
     margin-bottom: 7px;
 }
+.detailCard__introductionContent{
+  width: 100%;
+  max-width: 100%;
+  margin:0;
+  font-size: 15px;
+  font-weight: normal;
+}
+.detailCard__contactTitle{
+  width: 100%;
+  max-width: 100%;
+  font-size: 19px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+.detailCard__contactContentList{
+  margin: 5px;
+  padding-left: 17px;
+}
+.detailCard__contactContent--email,
+.detailCard__contactContent--phon{
+  font-size: 16px;
+  font-width: normal;
+}
+.detailCard__interestedTechnologiesTitle{
+  font-size: 19px;
+  font-weight: bold;
+  width: 100%;
+  max-width: 100%;
+  margin: 0px;
+  margin-top: 15px;
+}
+.detailCard__interestedTechnologiesList{
+  padding-left: 17px;
+  margin: 5px;
+}
+.detailCard__interestedTechnologiesItem{
+  font-size: 16px;
+  font-weight: normal;
+}

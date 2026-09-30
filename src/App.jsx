@@ -29,8 +29,11 @@ function App() {
         {/*contact*/}
         <div className='detailCard__contact'>
           <h1 className='detailCard__contactTitle'>연락처</h1>
-          <p className='detailCard__contactContent--email'>이메일: example@email.com</p>
-          <p className='detailCard__contactContent--phone'>전화: 010-1234-5678</p>
+          <ul className='detailCard__contactContentList'>
+            <li className='detailCard__contactContent--email'>이메일: example@email.com</li>
+            <li className='detailCard__contactContent--phone'>전화: 010-1234-5678</li>
+          </ul>
+          
         </div>
         {/* interested technologies */}
         <div className='detailCard__interestedTechnologies'>
